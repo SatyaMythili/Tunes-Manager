@@ -16,7 +16,7 @@ def generateuniquiecode():
             break
     
     return code
-
+ 
 class Room(models.Model):
     code=models.CharField(max_length = 8, default = generateuniquiecode, unique = True)
     host=models.CharField(max_length= 50,unique=True)
