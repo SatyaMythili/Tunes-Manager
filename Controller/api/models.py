@@ -2,7 +2,7 @@ from django.db import models
 import string
 import random
 
-# Create your models here.
+# Creating your models here.
 #standard database models are created here which is instead of a table
 #for this project we are creating a model for users as we collect all 
 # users to control the music over a host music
